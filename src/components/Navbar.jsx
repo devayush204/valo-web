@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <>
             <div className='fixed w-[100%] top-0 z-[100]'>
-                <div className='flex py-[2px] bg-[#111111] px-3 w-[100%]'>
+                <div className='flex justify-between py-[2px] bg-[#111111] px-3 w-[100%]'>
                     {/* 2 logos */}
                     <div className='flex py-5 ml-[20px] gap-8 '>
                         <div className='flex items-center group '>
@@ -18,13 +18,13 @@ const Navbar = () => {
                         </div>
 
                         <div>
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="white" height="35" viewBox="0 0 100 100" width="35"><path d="M99.25 48.66V10.28c0-.59-.75-.86-1.12-.39l-41.92 52.4a.627.627 0 00.49 1.02h30.29c.82 0 1.59-.37 2.1-1.01l9.57-11.96c.38-.48.59-1.07.59-1.68zM1.17 50.34L32.66 89.7c.51.64 1.28 1.01 2.1 1.01h30.29c.53 0 .82-.61.49-1.02L1.7 9.89c-.37-.46-1.12-.2-1.12.39v38.38c0 .61.21 1.2.59 1.68z" ></path></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="white" height="30" viewBox="0 0 100 100" width="35"><path d="M99.25 48.66V10.28c0-.59-.75-.86-1.12-.39l-41.92 52.4a.627.627 0 00.49 1.02h30.29c.82 0 1.59-.37 2.1-1.01l9.57-11.96c.38-.48.59-1.07.59-1.68zM1.17 50.34L32.66 89.7c.51.64 1.28 1.01 2.1 1.01h30.29c.53 0 .82-.61.49-1.02L1.7 9.89c-.37-.46-1.12-.2-1.12.39v38.38c0 .61.21 1.2.59 1.68z" ></path></svg>
                         </div>
                     </div>
 
                     {/* lists */}
-                    <div className='flex ml-[20px]'>
-                        <ul className='flex text-[14px]'>
+                    <div className='flex ml-[20px] '>
+                        <ul className='flex text-[13px] tracking-wider'>
                             <li className='font-semibold flex items-center group transition  text-white '>
                                 <span className='px-5 py-[6px] rounded-md flex items-center hover:bg-[#2B2A29]  '>
                                     <p className=''> GAME INFO</p>
@@ -97,7 +97,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     {/* right conetent */}
-                    <div className='flex px-2 items-center ml-[100px] '>
+                    <div className='flex px-2 items-center ml-0 '>
                         <div className='p-2 bg-[#2B2A29] rounded-xl '>
                             <svg fill='white' width={25} viewBox="0 0 19 20"><path fill-rule="evenodd" clip-rule="evenodd" d="M19 18.6l-5.2-5.2C15.2 12 16 10.1 16 8c0-4.4-3.6-8-8-8S0 3.6 0 8s3.6 8 8 8c1.6 0 3.1-.5 4.3-1.3l5.3 5.3 1.4-1.4zM2 8c0-3.3 2.7-6 6-6 1.6 0 3.1.6 4.2 1.8C13.4 4.9 14 6.4 14 8s-.6 3.1-1.8 4.2C11.1 13.4 9.6 14 8 14c-3.3 0-6-2.7-6-6z"></path></svg>
                         </div>

@@ -111,6 +111,7 @@
   }
   .play-btn-div:hover .play-btn:before {
     transform: translateX(-10%)  translateY(-50%) rotate(15deg);
+    
   }
   .play-btn-div:hover .span-btn:after {
     background: #fff;
@@ -119,6 +120,7 @@
   .play-btn-div:active:before {
     transform: translateY(-5px) translateX(-50%);
     padding: 10px 5px;
+    
   }
   .play-btn-div:active:after {
     transform: translateY(5px) translateX(-50%);
