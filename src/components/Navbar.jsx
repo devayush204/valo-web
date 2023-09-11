@@ -4,7 +4,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className='fixed w-[100%] top-0 z-[100]'>
+            <div className='fixed w-[100%] top-0 z-[100] shadow-2xl'>
                 <div className='flex justify-between py-[2px] bg-[#111111] px-3 w-[100%]'>
                     {/* 2 logos */}
                     <div className='flex py-5 ml-[20px] gap-8 '>
@@ -31,10 +31,10 @@ const Navbar = () => {
                                     <svg className='group-hover:fill-white ml-2' width="10" height="10" fill='#2B2A29' viewBox="0 0 8 5"><path d="M.707 1.707l2.586 2.586a1 1 0 001.414 0l2.586-2.586C7.923 1.077 7.477 0 6.586 0H1.414C.524 0 .077 1.077.707 1.707z"></path></svg>
                                 </span>
 
-                                <div className='bg-black text-[13px] -top-[1000px] font-semibold text-[#c0bebe] group  transition-all group-hover:opacity-100 group-hover:top-[65px] border-t-4 rounded-sm py-4 px-2 border-t-red-600 duration-0 absolute flex flex-col w-[200px] justify-center'>
-                                    <li className='py-[6px] px-8 rounded-lg hover:bg-[#2B2A29] hover:text-white '>AGENTS</li>
-                                    <li className='py-[6px] px-8 rounded-lg hover:bg-[#2B2A29] hover:text-white '>MAPS</li>
-                                    <li className='py-[6px] px-8 rounded-lg hover:bg-[#2B2A29] hover:text-white '>ARSENAL</li>
+                                <div className='bg-[#2B2A29] text-[13px] -top-[1000px] font-semibold text-[#c0bebe] group  transition-all group-hover:opacity-100 group-hover:top-[65px] border-t-4 rounded-sm py-4 px-2 border-t-red-600 duration-0 absolute flex flex-col w-[200px] justify-center'>
+                                    <li className='py-[6px] px-8 rounded-lg hover:bg-[#3c3b3a] hover:text-white '>AGENTS</li>
+                                    <li className='py-[6px] px-8 rounded-lg hover:bg-[#3c3b3a] hover:text-white '>MAPS</li>
+                                    <li className='py-[6px] px-8 rounded-lg hover:bg-[#3c3b3a] hover:text-white '>ARSENAL</li>
                                 </div>
                             </li>
 
@@ -56,10 +56,10 @@ const Navbar = () => {
                                     <svg className='group-hover:fill-white ml-2' width="10" height="10" fill='#2B2A29' viewBox="0 0 8 5"><path d="M.707 1.707l2.586 2.586a1 1 0 001.414 0l2.586-2.586C7.923 1.077 7.477 0 6.586 0H1.414C.524 0 .077 1.077.707 1.707z"></path></svg>
                                 </span>
 
-                                <div className='bg-black text-[13px] -top-[1000px] font-semibold text-[#c0bebe] group  transition-all group-hover:opacity-100 group-hover:top-[65px] border-t-4 rounded-sm py-4 px-2 border-t-red-600 duration-0 absolute flex flex-col w-[200px] justify-center'>
-                                    <li className='py-[6px] px-10 rounded-lg hover:bg-[#2B2A29] hover:text-white '>SPECS </li>
-                                    <li className='py-[6px] px-10 rounded-lg hover:bg-[#2B2A29] hover:text-white '>SUPPORT</li>
-                                    <li className='py-[6px] px-10 rounded-lg hover:bg-[#2B2A29] hover:text-white '>COMMUNITY code </li>
+                                <div className='bg-[#2B2A29] text-[13px] -top-[1000px] font-semibold text-[#c0bebe] group  transition-all group-hover:opacity-100 group-hover:top-[65px] border-t-4 rounded-sm py-4 px-2 border-t-red-600 duration-0 absolute flex flex-col w-[200px] justify-center'>
+                                    <li className='py-[6px] px-10 rounded-lg hover:bg-[#3c3b3a] hover:text-white '>SPECS </li>
+                                    <li className='py-[6px] px-10 rounded-lg hover:bg-[#3c3b3a] hover:text-white '>SUPPORT</li>
+                                    <li className='py-[6px] px-10 rounded-lg hover:bg-[#3c3b3a] hover:text-white '>COMMUNITY code </li>
                                 </div>
                             </li>
 
@@ -69,13 +69,13 @@ const Navbar = () => {
                                     <svg className='group-hover:fill-white ml-2' width="10" height="10" fill='#2B2A29' viewBox="0 0 8 5"><path d="M.707 1.707l2.586 2.586a1 1 0 001.414 0l2.586-2.586C7.923 1.077 7.477 0 6.586 0H1.414C.524 0 .077 1.077.707 1.707z"></path></svg>
                                 </span>
 
-                                <div className='bg-black text-[13px] -top-[1000px] font-semibold text-[#c0bebe] group  transition-all group-hover:opacity-100 group-hover:top-[65px] border-t-4 rounded-sm py-4 px-2 border-t-red-600 duration-0 absolute flex flex-col w-[200px] justify-center'>
-                                    <li className='py-[6px] px-10 rounded-lg hover:bg-[#2B2A29] hover:text-white '>YOUTUBE </li>
-                                    <li className='py-[6px] px-10 rounded-lg hover:bg-[#2B2A29] hover:text-white '>INSTAGRAM</li>
-                                    <li className='py-[6px] px-10 rounded-lg hover:bg-[#2B2A29] hover:text-white '>TWITTER </li>
-                                    <li className='py-[6px] px-10 rounded-lg hover:bg-[#2B2A29] hover:text-white '>TIKTOK </li>
-                                    <li className='py-[6px] px-10 rounded-lg hover:bg-[#2B2A29] hover:text-white '>FACEBOOK </li>
-                                    <li className='py-[6px] px-10 rounded-lg hover:bg-[#2B2A29] hover:text-white '>DISCORD </li>
+                                <div className='bg-[#2B2A29] text-[13px] -top-[1000px] font-semibold text-[#c0bebe] group  transition-all group-hover:opacity-100 group-hover:top-[65px] border-t-4 rounded-sm py-4 px-2 border-t-red-600 duration-0 absolute flex flex-col w-[200px] justify-center'>
+                                    <li className='py-[6px] px-10 rounded-lg hover:bg-[#3c3b3a] hover:text-white '>YOUTUBE </li>
+                                    <li className='py-[6px] px-10 rounded-lg hover:bg-[#3c3b3a] hover:text-white '>INSTAGRAM</li>
+                                    <li className='py-[6px] px-10 rounded-lg hover:bg-[#3c3b3a] hover:text-white '>TWITTER </li>
+                                    <li className='py-[6px] px-10 rounded-lg hover:bg-[#3c3b3a] hover:text-white '>TIKTOK </li>
+                                    <li className='py-[6px] px-10 rounded-lg hover:bg-[#3c3b3a] hover:text-white '>FACEBOOK </li>
+                                    <li className='py-[6px] px-10 rounded-lg hover:bg-[#3c3b3a] hover:text-white '>DISCORD </li>
                                 </div>
                             </li>
                             <li className='flex items-center hover:border-b-[5px] hover:border-b-red-600 font-semibold text-white '>
@@ -88,8 +88,8 @@ const Navbar = () => {
                                     <svg className='group-hover:fill-white ml-2' width="10" height="10" fill='#2B2A29' viewBox="0 0 8 5"><path d="M.707 1.707l2.586 2.586a1 1 0 001.414 0l2.586-2.586C7.923 1.077 7.477 0 6.586 0H1.414C.524 0 .077 1.077.707 1.707z"></path></svg>
                                 </span>
 
-                                <div className='bg-black text-[13px] -top-[1000px] font-semibold text-[#c0bebe] group  transition-all group-hover:opacity-100 group-hover:top-[65px] border-t-4 rounded-sm py-4 px-2 border-t-red-600 duration-0 absolute flex flex-col w-[200px] items-center justify-center'>
-                                    <li className='py-[6px] px-10 rounded-lg hover:bg-[#2B2A29] hover:text-white '>PBE SIGNUP</li>
+                                <div className='bg-[#2B2A29] text-[13px] -top-[1000px] font-semibold text-[#c0bebe] group  transition-all group-hover:opacity-100 group-hover:top-[65px] border-t-4 rounded-sm py-4 px-2 border-t-red-600 duration-0 absolute flex flex-col w-[200px] items-center justify-center'>
+                                    <li className='py-[6px] px-10 rounded-lg hover:bg-[#3c3b3a] hover:text-white '>MERCH</li>
                                 </div>
                             </li>
 

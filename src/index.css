@@ -2,10 +2,10 @@
   .play-btn-div:before {
     content: "";
     position: absolute;
-    top: 0;
+    top: 4px;
     left: 50%;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     box-sizing: content-box;
     border: 1px solid white;
     border-bottom: none;
@@ -17,10 +17,10 @@
   .play-btn-div:after {
     content: "";
     position: absolute;
-    bottom: 0;
+    bottom: 4px;
     left: 50%;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
     box-sizing: content-box;
     border: 1px solid white;
     border-top: none;
