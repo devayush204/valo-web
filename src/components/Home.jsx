@@ -1,6 +1,8 @@
 import React from 'react'
 import img from './valo.png'
 import LatestNews from './LatestNews'
+import Advertisement from './Advertisement'
+import WeAreValo from './WeAreValo'
 
 const Home = () => {
   return (
@@ -9,7 +11,8 @@ const Home = () => {
         <div>
           <div className=' flex justify-center'>
             <div className='mt-[74px] relative'>
-              <span className='absolute w-[0.5px] h-[5000px] left-[97px] bg-zinc-500'></span>
+              <span className='absolute w-[0.5px] h-[1150px] left-[97px] bg-zinc-500 z-[100]'></span>
+              <span className='absolute w-[0.5px] h-[1150px] top-[864px] left-[97px] bg-zinc-300 z-[10]'></span>
               <span className='absolute w-[0.5px] h-full right-24 bg-zinc-500'></span>
               <span className='absolute w-[0.5px] h-full left-[450px] bg-zinc-500'></span>
               <video src={"/valorant.mp4"} autoPlay muted loop  ></video>
@@ -29,12 +32,22 @@ const Home = () => {
             </div>
 
           </div>
+          <div class="absolute left-0 bottom-[110px]  w-[0] h-[0] border-solid border-transparent border-[30px] border-l-[#ECE8E1] border-b-[#ECE8E1]">
+            {/* <div class="w-[50px] h-[50px] absolute left-0 bottom-[110px] bg-red-500 z-[50] "></div> */}
+          </div>
 
-          
+
+
 
         </div>
       </div>
-      <LatestNews/>
+      <LatestNews />
+      <div>
+        <Advertisement />
+      </div>
+      <div>
+        <WeAreValo />
+      </div>
     </>
   )
 }

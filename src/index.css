@@ -1,11 +1,30 @@
 
+
+@font-face {
+  font-family: custom;
+  src: url("/public/Abel/Abel-Regular.ttf");
+}
+body{
+font-family: custom;
+}
+
+.valo-text{
+  font-weight: 900;
+  color: #e2e1de;
+-webkit-text-fill-color: transparent;
+-webkit-text-stroke-width: 1px ;
+
+}
+
+
+
   .play-btn-div:before {
     content: "";
     position: absolute;
-    top: 4px;
+    top: 8px;
     left: 50%;
     width: 100%;
-    padding: 5px;
+    padding: 3px;
     box-sizing: content-box;
     border: 1px solid white;
     border-bottom: none;
@@ -17,10 +36,10 @@
   .play-btn-div:after {
     content: "";
     position: absolute;
-    bottom: 4px;
+    bottom: 8px;
     left: 50%;
     width: 100%;
-    padding: 5px;
+    padding: 3px;
     box-sizing: content-box;
     border: 1px solid white;
     border-top: none;

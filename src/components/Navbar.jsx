@@ -4,7 +4,7 @@ const Navbar = () => {
 
     return (
         <>
-            <div className='fixed w-[100%] top-0 z-[100] shadow-2xl'>
+            <div className='fixed w-[100%] top-0 z-[1000] shadow-2xl'>
                 <div className='flex justify-between py-[2px] bg-[#111111] px-3 w-[100%]'>
                     {/* 2 logos */}
                     <div className='flex py-5 ml-[20px] gap-8 '>

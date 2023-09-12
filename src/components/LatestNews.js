@@ -3,13 +3,13 @@ import React from 'react';
 const LatestNews = () => {
     return (
         <section className="bg-[#ECE8E1] z-10 py-16 relative pb-[120px] overflow-hidden">
-            <p className='text-[220px] absolute text-black opacity-10 z-[10] bottom-0 font-bold  '>WE ARE <pre>      VALORANT</pre> </p>
+            <p className='text-[260px] absolute valo-text z-[10] -bottom-[100px] '><pre>WE ARE</pre> <pre className='text'>    VALORANT</pre> </p>
             <div className="container mx-auto relative flex justify-center items-center z-[20]">
-                <span className=" bottom-[270px] z-10 left-4 text-[110px] text-[#ED4252] tracking-tighter  font-semibold absolute">LATEST NEWS</span>
+                <span className=" bottom-[270px] z-10 left-4 text-[90px] text-[#ED4252] tracking-tighter  font-extrabold absolute">LATEST NEWS</span>
                 <span className='absolute -top-6  right-10'>
                     <a href="/" className='group'>
                     <div className='flex gap-3 '>
-                    <p className='text-[#ED4252] text-sm font-semibold '>GO TO NEWS PAGE </p>
+                    <p className='text-[#ED4252] text-sm font-semibold font-tungsten'>GO TO NEWS PAGE </p>
                     <svg className='w-[30px] transition-transform group-hover:translate-x-3 duration-500' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 15"><path d="M16.2.5 19.9 4m4.6 3.5-8.3 7" fill="none" stroke="#ff4655"></path><path fill="none" stroke="#ff4655" stroke-miterlimit="10" d="M16 7.5H0"></path></svg>
                     </div>
                     </a>
