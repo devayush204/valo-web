@@ -4,8 +4,9 @@
   font-family: custom;
   src: url("/public/Abel/Abel-Regular.ttf");
 }
-body{
+.text{
 font-family: custom;
+font-weight: 900;
 }
 
 .valo-text{
@@ -145,6 +146,14 @@ font-family: custom;
     transform: translateY(5px) translateX(-50%);
     padding: 10px 5px;
   }
+
+
+
+  /* for news card */
+  
+
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

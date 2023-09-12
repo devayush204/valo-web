@@ -3,9 +3,9 @@ import React from 'react';
 const LatestNews = () => {
     return (
         <section className="bg-[#ECE8E1] z-10 py-16 relative pb-[120px] overflow-hidden">
-            <p className='text-[260px] absolute valo-text z-[10] -bottom-[100px] '><pre>WE ARE</pre> <pre className='text'>    VALORANT</pre> </p>
+            <p className='text-[260px] absolute valo-text z-[10] -bottom-[100px] '><pre>WE ARE</pre> <pre className=''>    VALORANT</pre> </p>
             <div className="container mx-auto relative flex justify-center items-center z-[20]">
-                <span className=" bottom-[270px] z-10 left-4 text-[90px] text-[#ED4252] tracking-tighter  font-extrabold absolute">LATEST NEWS</span>
+                <span className=" bottom-[270px] z-10 left-4 text-[90px] text-[#ED4252] tracking-tighter  absolute text">LATEST NEWS</span>
                 <span className='absolute -top-6  right-10'>
                     <a href="/" className='group'>
                     <div className='flex gap-3 '>
@@ -16,13 +16,15 @@ const LatestNews = () => {
                 </span>
                 <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 w-[97%] items-center ">
                     {/* News Card 1 */}
-                    <div className="bg-transparent overflow-hidden ">
-                        <img src={"/news1.webp"} alt="News 1" className="w-full h-[250px] object-cover" />
+                    <div className="bg-transparent overflow-hidden group relative">
+                        <img src={"/news1.webp"} alt="News 1" className="group overflow-hidden w-full h-[250px] object-cover" />
                         <div className="flex gap-12 mt-3 items-center mb-4 ">
                             <h3 className="text-xs text-zinc-500 font-semibold ">12/12/23</h3>
                             <p className="text-sm text-red-600 font-semibold">GAME UPDATES</p>
                         </div>
                         <a href="#" className="text-zinc-600 text-[19px]  font-bold tracking-wider ">VALORANT PATCH NOTES</a>
+                        <div className=" absolute -left-[500px]  top-0 w-[100%] h-[77%] bg-[#fd3a4a] opacity-0 -skew-x-12 transf group-hover:opacity-50 group-hover:left-[10px] transition-all duration-300 ease-in-out"></div>
+
                     </div>
                     {/* News Card 2 */}
                     <div className="bg-transparent overflow-hidden  ">

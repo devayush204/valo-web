@@ -5,7 +5,7 @@ const Advertisement = () => {
         <div className='relative bg-pink-500'>
         <div className='overflow-hidden relative'>
             <p className='absolute text-[25px] font-semibold tracking-widest text-white top-[450px] left-[160px] z-[10] '>EPISODE_07 // ACT I / YR 3</p>
-            <p className='absolute text-[100px] font-semibold  text-white top-[500px] left-[160px]  z-[10] '>EVOLUTION</p>
+            <p className='absolute text-[100px] font-semibold  text-white top-[500px] left-[160px]  z-[10] text '>EVOLUTION</p>
             <div className='play-btn-div absolute z-[20] top-[650px] left-[170px] flex group transition p-1 '>
                 <button className='play-btn md:w-auto  bg-[#ED4252] text-white text-base font-semibold'>
                     <span className='span-btn px-[85px] font-semibold py-[18px]'>
