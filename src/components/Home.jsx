@@ -3,6 +3,7 @@ import img from './valo.png'
 import LatestNews from './LatestNews'
 import Advertisement from './Advertisement'
 import WeAreValo from './WeAreValo'
+import Footer from './Footer'
 
 const Home = () => {
   return (
@@ -48,6 +49,9 @@ const Home = () => {
       <div>
         <WeAreValo />
       </div>
+      
+        <Footer/>
+      
     </>
   )
 }

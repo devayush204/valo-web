@@ -149,6 +149,136 @@ font-weight: 900;
 
 
 
+/* for btn3 */
+.play-btn3-div:before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 50%;
+  width: 100%;
+  padding: 4px;
+  box-sizing: content-box;
+  border: 1px solid #a1a09b;
+  border-bottom: none;
+  height: 20%;
+  transform: translateY(-10px) translateX(-50%);
+  transition: all .4s;
+  display: block;
+}
+.play-btn3-div:after {
+  content: "";
+  position: absolute;
+  bottom: 7px;
+  left: 50%;
+  width: 100%;
+  padding: 4px;
+  box-sizing: content-box;
+  border: 1px solid #a1a09b;
+  border-top: none;
+  height: 20%;
+  transform: translateY(10px) translateX(-50%);
+  transition: all .4s;
+  display: block;
+}
+.play-btn3-div .play-btn3 {
+  /* display: block; */
+  /* width: 100%; */
+  /* height: 100%; */
+  padding: 1px;
+  /* box-sizing: border-box; */
+  position: relative;
+  /* top: 0; */
+  /* left: 0; */
+  z-index: 5;
+  overflow: hidden;
+}
+.play-btn3-div .play-btn3:before {
+  content: "";
+  display: block;
+  width: 150%;
+  height: 400%;
+  background: #222;
+  padding: 0;
+  box-sizing: border-box; 
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 20;
+  transition: all .4s linear;
+  transform: translateX(-110%)  translateY(-50%) rotate(15deg);
+  z-index: 10;
+}
+.play-btn3-div .play-btn3:after {
+  content: "";
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  box-shadow: 2px -2px 0 2px #FF4654, -2px 3px 0 2px #FF4655;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translate(3px, 3px);
+  background: #FF4657;
+}
+.play-btn3-div .span-btn3 {
+  display: block;
+  width: 100%;
+  height: 100%;
+  /* padding: 20px 90px; */
+  box-sizing: border-box; 
+  position: relative;
+  z-index: 20;
+  /* font-size: 16px; */
+  line-height: 1;
+}
+.play-btn3-div .span-btn3:after {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  box-sizing: border-box; 
+  position: absolute;
+  z-index: 30;
+  background: #222;
+  right: -3px;
+  bottom: -3px;
+  transition: all .4s 0s;
+}
+.play-btn3-div .span-btn3:before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 5px;
+  box-sizing: border-box; 
+  position: absolute;
+  z-index: 30;
+  background: #222;
+  left: -3px;
+  top: -3px;
+  transition: all .4s 0s;
+}
+.play-btn3-div:hover {
+  cursor: pointer;
+}
+.play-btn3-div:hover .play-btn3:before {
+  transform: translateX(-10%)  translateY(-50%) rotate(15deg);
+  
+}
+.play-btn3-div:hover .span-btn3:after {
+  background: #fff;
+  transition: all .4s .4s;
+}
+.play-btn3-div:active:before {
+  transform: translateY(-5px) translateX(-50%);
+  padding: 10px 5px;
+  
+}
+.play-btn3-div:active:after {
+  transform: translateY(5px) translateX(-50%);
+  padding: 10px 5px;
+}
+
+
   /* for news card */
   
 
