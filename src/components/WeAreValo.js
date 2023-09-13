@@ -15,8 +15,8 @@ const WeAreValo = () => {
             </div>
             <div className='flex relative justify-between mt-14'>
                 <div className='flex flex-col gap-5 ml-[280px] '>
-                    <span className='text-[20px] text-black text'>
-                        DEFY THE LIMITS
+                    <span className='text-[20px] uppercase text-black text'>
+                        defy the limits
                     </span>
                     <span className='text-md leading-6 text-zinc-500 font-tungsten w-[320px] '>
                         Blend your style and experience on a global, competitive stage. You have 13 rounds to attack and defend your side using sharp gunplay and tactical abilities. And, with one life per-round, you'll need to think faster than your opponent if you want to survive. Take on foes across Competitive and Unranked modes as well as Deathmatch and Spike Rush.
@@ -24,8 +24,8 @@ const WeAreValo = () => {
                     <div className='relative'>
                         <div className='play-btn3-div absolute z-[20]   flex group transition p-1 '>
                             <button className='play-btn3 md:w-auto  bg-[#ED4252] text-white text-base font-semibold'>
-                                <span className='span-btn3 px-[85px] font-semibold py-[18px]'>
-                                    LEARN THE GAME
+                                <span className='span-btn3 px-[85px] uppercase font-semibold py-[18px]'>
+                                learn the game
                                 </span>
                             </button>
                         </div>
@@ -38,7 +38,7 @@ const WeAreValo = () => {
             </div>
             <div className='w-[10px] h-[10px] bg-[#ED4252] absolute top-5 z-[20] left-[97px] '></div>
             <div className='w-[10px] h-[10px] bg-[#ED4252] absolute bottom-10 z-[100] left-[97px] '></div>
-            <div className='w-[10px] h-[10px] bg-[#ED4252] absolute -bottom-16 z-[100] left-[190px] '></div>
+            <div className='w-[10px] h-[10px] bg-[#ED4252] absolute -bottom-15 z-[100] left-[190px] '></div>
             </div>
         </div>
     )
