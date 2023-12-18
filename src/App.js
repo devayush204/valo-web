@@ -7,10 +7,8 @@ const App = () => {
 
   return (
     <>
-<div>
      <Navbar/>
      <Home/>
-<div/>
     </>
   )
 }
